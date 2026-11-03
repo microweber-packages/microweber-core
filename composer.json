@@ -1,45 +1,34 @@
 {
-  "name": "microweber-packages/microweber-core",
-  "description": "Microweber core",
-  "version": "0.0.1",
-  "authors": [
-    {
-      "name": "Microweber",
-      "email": "info@microweber.com"
+    "name": "microweber-packages/microweber-core",
+    "description": "Microweber CMS.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://microweber.com",
+    "authors": [
+        {
+            "name": "Microweber",
+            "email": "info@microweber.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0|^13.0"
     },
-    {
-      "name": "Bozhidar Slaveykov",
-      "email": "bobi@microweber.com"
+    "autoload": {
+        "psr-4": {
+            "MicroweberPackages\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MicroweberPackages\\Core\\CoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "replace": {
+        "microweber-packages/core": "*"
     }
-  ],
-  "require": {
-    "microweber-packages/microweber-cms": "dev-master",
-    "microweber-packages/microweber-shop": "dev-master",
-    "microweber-packages/microweber-package-manager": "dev-master",
-    "microweber-packages/microweber-option-manager": "dev-master",
-    "microweber-packages/laravel-config-save": "dev-master",
-    "microweber-packages/laravel-tagged-file-cache": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "Microweber\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Microweber\\Core\\CoreServiceProvider"
-      ]
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "homepage": "http://microweber.com",
-  "license": "MIT",
-  "support": {
-    "email": "support@microweber.com"
-  }
 }
