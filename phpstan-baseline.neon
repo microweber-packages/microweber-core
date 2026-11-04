@@ -1,1 +1,289 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Class Livewire\\LivewireServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\AiTools\\Providers\\AiToolsServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\BladeCache\\BladeCacheServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\ClassLoader\\ClassLoaderServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Config\\ConfigServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\CssFrameworkBootstrap\\Providers\\CssFrameworkServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Database\\DatabaseManagerServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\DbExport\\DbExportServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\DbInstaller\\DbInstallerServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\DbMigrator\\DbMigratorServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\EnvWriter\\EnvWriterServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Event\\EventManagerServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\FilamentModalTeleport\\ModalTeleportServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\FilamentRegistry\\FilamentRegistryServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\FileUploader\\FileUploaderServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Filesystem\\FilesystemServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Format\\FormatServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\FrontendAssetsLibs\\MicroweberFrontendAssetsLibsServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\FrontendAssets\\MicroweberFrontendAssetsServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Http\\HttpServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\PhpQuery\\Providers\\PhpQueryServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Repository\\Providers\\RepositoryServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Searchable\\SearchableServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Security\\SecurityServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\TaggableFileCache\\TaggableFileCacheServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Thumbnailer\\ThumbnailerServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Translation\\Providers\\TranslationServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Class MicroweberPackages\\Url\\Providers\\UrlServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/CoreServiceProvider.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractModelEvent\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractModelEvent.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceIsCreating\:\:getData\(\) has invalid return type MicroweberPackages\\Core\\Events\\data\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsCreating.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceIsCreating\:\:getModel\(\) has invalid return type MicroweberPackages\\Core\\Events\\Model\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsCreating.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractResourceIsCreating\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsCreating.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceIsUpdating\:\:getData\(\) has invalid return type MicroweberPackages\\Core\\Events\\data\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsUpdating.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceIsUpdating\:\:getModel\(\) has invalid return type MicroweberPackages\\Core\\Events\\Model\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsUpdating.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractResourceIsUpdating\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceIsUpdating.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceWasCreated\:\:getData\(\) has invalid return type MicroweberPackages\\Core\\Events\\Data\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasCreated.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceWasCreated\:\:getModel\(\) has invalid return type MicroweberPackages\\Core\\Events\\Model\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasCreated.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractResourceWasCreated\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasCreated.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractResourceWasDeleted\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasDeleted.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceWasUpdated\:\:getData\(\) has invalid return type MicroweberPackages\\Core\\Events\\Data\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasUpdated.php
+
+		-
+			message: '#^Method MicroweberPackages\\Core\\Events\\AbstractResourceWasUpdated\:\:getModel\(\) has invalid return type MicroweberPackages\\Core\\Events\\Model\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasUpdated.php
+
+		-
+			message: '#^Property MicroweberPackages\\Core\\Events\\AbstractResourceWasUpdated\:\:\$model has unknown class MicroweberPackages\\Core\\Events\\Model as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Events/AbstractResourceWasUpdated.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:create\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/BaseRepository.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:filter\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/BaseRepository.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:find\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/BaseRepository.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:findOrFail\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/BaseRepository.php
+
+		-
+			message: '#^Function autoload_add_namespace not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Services/ServiceLoader.php
+
+		-
+			message: '#^Function normalize_path not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Services/ServiceLoader.php
